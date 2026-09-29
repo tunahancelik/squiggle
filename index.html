@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Squiggle — Support</title><style>
+@font-face { font-family: Outfit; src: url('fonts/outfit_regular.ttf'); font-weight: 400; }
+@font-face { font-family: Outfit; src: url('fonts/outfit_medium.ttf'); font-weight: 500; }
+@font-face { font-family: Outfit; src: url('fonts/outfit_bold.ttf'); font-weight: 700; }
+@font-face { font-family: Outfit; src: url('fonts/outfit_black.ttf'); font-weight: 900; }
+@font-face { font-family: Instrument; src: url('fonts/InstrumentSerif-Italic.ttf'); font-style: italic; }
+:root { --ink: #242424; --grey: #797979; --dots: #E5E5E5; --gold: #E8A517; --paper: #FFFFFF; }
+* { box-sizing: border-box; }
+html { background: var(--paper); }
+body { margin: 0; color: var(--ink); font: 400 18px/1.6 Outfit, -apple-system, system-ui, sans-serif;
+       background-color: var(--paper);
+       background-image: radial-gradient(var(--dots) 1.6px, transparent 1.8px); background-size: 28px 28px; }
+main { max-width: 680px; margin: 0 auto; padding: 32px 20px 64px; }
+nav { display: flex; gap: 14px; flex-wrap: wrap; font-size: 15px; margin-bottom: 28px; }
+nav a { color: var(--grey); text-decoration: none; }
+nav a[aria-current] { color: var(--ink); font-weight: 700; }
+.snake { width: 132px; height: 66px; display: block; margin: 8px 0 4px; }
+h1 { font: 900 clamp(30px, 8.5vw, 44px)/1.05 Outfit, sans-serif; letter-spacing: -.02em; margin: 6px 0 4px;
+     hyphens: auto; overflow-wrap: break-word; }
+.lead { font: italic 30px/1.2 Instrument, Georgia, serif; margin: 0 0 18px; }
+h2 { font: 700 22px/1.3 Outfit, sans-serif; margin: 34px 0 8px; }
+h3 { font: 700 18px/1.4 Outfit, sans-serif; margin: 20px 0 2px; }
+p, li { margin: 6px 0; }
+ul { padding-left: 20px; }
+.card { background: var(--paper); border: 2px solid var(--ink); border-radius: 22px; padding: 18px 20px; margin-top: 34px; }
+a { color: var(--ink); text-decoration-color: var(--gold); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+footer { color: var(--grey); font-size: 14px; margin-top: 40px; }
+</style></head>
+<body><main><nav><a href="" aria-current="page">English</a><a href="tr/">Türkçe</a><a href="de/">Deutsch</a><a href="fr/">Français</a></nav><svg class="snake" viewBox="0 0 132 66" aria-hidden="true"><path d="M8 50 C 22 22, 40 22, 50 40 S 78 60, 88 36 S 112 14, 118 26"
+ fill="none" stroke="#242424" stroke-width="11" stroke-linecap="round"/><circle cx="119" cy="26" r="9" fill="#242424"/>
+<circle cx="121" cy="22" r="2.6" fill="#fff"/><circle cx="124" cy="27" r="2.6" fill="#fff"/>
+<circle cx="121.6" cy="22.4" r="1.3" fill="#242424"/><circle cx="124.6" cy="27.2" r="1.3" fill="#242424"/>
+<ellipse cx="30" cy="54" rx="5" ry="6.6" fill="#E8A517" stroke="#242424" stroke-width="2"/></svg><h1>Squiggle</h1><p class='lead'>A small snake, a wide world.</p><p>Squiggle is a calm snake game drawn in black ink on white paper. Put a finger anywhere on the screen and the snake winds wherever you lead.</p><h2>How to play</h2><ul><li>Drag your finger on the screen: the ring under it steers.</li><li>Collect eggs — eating makes you longer — and finish a chapter&#x27;s list to open a new world.</li><li>You can slide over your own body. Close a ring round something and it is yours.</li><li>The bolt button gives you a short lunge, for mice, lizards and frogs.</li><li>Don&#x27;t run into trees, hedgehogs, crocodiles or another snake&#x27;s body.</li></ul><h2>Questions</h2><h3>Where is my progress kept?</h3><p>Only on your phone. There is no account. Deleting the app deletes your progress, and &quot;Start over&quot; in Settings resets everything.</p><h3>Do I have to use Game Center?</h3><p>No. If you sign in, your best run, your score on today&#x27;s path and the notes in your journal show up in Game Center too.</p><h3>When does today&#x27;s path change?</h3><p>Every day at 00:00 UTC. That day, everybody walks the same path.</p><h3>How do I turn notifications off?</h3><p>Squiggle sends one reminder at most: the evening after the day you left the game. To turn it off, go to iPhone Settings › Squiggle › Notifications.</p><h3>Where are the ads?</h3><p>Never on the field while you play. There is a small banner at the foot of the home screen and the shop, now and then an ad between runs, and an optional rewarded ad in the shop. In Europe, your ad consent can be changed in Settings › Ad privacy.</p><h3>How do I change the language?</h3><p>In Settings: Turkish, English, German or French.</p><div class='card'><p>A problem, or an idea? Write to us: <a href="https://github.com/tunahancelik/squiggle/issues">github.com/tunahancelik/squiggle/issues</a></p><p><a href='privacy.html'>Privacy policy</a></p></div><footer>© 2026 Tunahan Çelik</footer></main></body></html>
